@@ -11,5 +11,5 @@ div {
   width: 700px;
   height: 500px;
   border-radius: 10px;
-  background: url("img/texture.jpg") #d6bb80;
+  background: rgb(255, 174, 0) url("img/texture.jpg");
 }

@@ -1,9 +1,23 @@
 body {
-	padding: 2% 18%;
-	font: 1em/1.5 sans-serif;
+  padding: 2% 18%;
+  font: 1em/1.5 sans-serif;
 }
 form {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* Attribute Selectors */
+input[type="email"] {
+  background-color: lightyellow;
+  display: block;
+  width: 200px;
+  padding: 5px;
+}
+input[type="submit"] {
+  background-color: rgb(162, 212, 69);
+  display: block;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

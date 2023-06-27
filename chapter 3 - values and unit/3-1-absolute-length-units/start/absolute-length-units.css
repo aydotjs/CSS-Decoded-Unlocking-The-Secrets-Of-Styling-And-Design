@@ -1,3 +1,14 @@
 /* Absolute Length Units 
 --------------------------------------------- */
-
+.cm{
+    width: 20cm;
+}
+.mm{
+    width: 200mm;
+}
+.in{
+    width: 7.87in;
+}
+.px{
+    width: 780px;
+}

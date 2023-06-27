@@ -13,4 +13,11 @@ li {
 }
 
 /* Structural Pseudo-classes - :nth-child */
-
+li:nth-child(odd){
+	background-color: crimson;
+	color: white;
+}
+li:nth-child(even){
+	background-color: royalblue;
+	color: white;
+}

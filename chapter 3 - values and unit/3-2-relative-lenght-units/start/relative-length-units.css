@@ -1,7 +1,12 @@
 
 /* Relative Length Units 
 --------------------------------------------- */
-
+/* vw - viewport width */
+.box{
+    border: 2px solid red;
+    font-size: 12px;
+    width: 50vh;
+}
 
 
 

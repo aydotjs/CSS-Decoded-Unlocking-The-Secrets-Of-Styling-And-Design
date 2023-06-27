@@ -25,10 +25,12 @@ div:after {
 }
 
 
-/* Color Values
+/* Color ::-webkit-validation-bubble-message
 --------------------------------------------- */
 
-
+div{
+	background-color: #05059f;
+}
 
 
 

@@ -1,37 +1,60 @@
-
 body {
-	margin: 70px 0 0;
-	background: #E1E1DD;
-	color: #FFF;
-	font: normal 1.4em sans-serif;
+  margin: 70px 0 0;
+  background: #e1e1dd;
+  color: #fff;
+  font: normal 1.4em sans-serif;
+  position: relative;
+  /* border: 2px solid red; */
 }
 
 .wrapper {
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 25px;
-	width: 80%;
-	background: #FFF;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 25px;
+  width: 80%;
+  background: #fff;
+  position: relative;
 }
 
 .top {
-	background: #FF6347;
+  background: #ff6347;
+  position: relative;
+  top: 50px;
+  z-index: 5;
 }
 
 .middle {
-	background: #87CEEB;
+  background: #87ceeb;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
 }
 
 .bottom {
-	background: #20B2AA;
+  background: #20b2aa;
+  position: relative;
+  z-index: 4;
 }
 
 .wrapper div {
-	width: 150px;
-	height: 150px;
-	text-align: center;	
-	line-height: 150px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
-
-
+nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 50px;
+}
+a {
+  color: white;
+  display: inline-block;
+  margin: 0 10px;
+}

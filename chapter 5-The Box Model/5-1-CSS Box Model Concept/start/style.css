@@ -2,8 +2,9 @@
 body {
 	margin: 0;
 	padding: 8% 25%;
-	color: #FFF;
+	color: black;
 	font: 1.2em/1.3 sans-serif;
+	/* border: 2px solid red; */
 }
 
 p {
@@ -12,4 +13,17 @@ p {
 
 /* Box Styles
 --------------------------------------------- */
-
+.box{
+background-color:  blue;
+width: 500px;
+color: white;
+padding: 20px;
+margin: 0 auto;
+/* border-style:dashed ;
+border-width:20px ;
+border-color: green; */
+border:20px dashed rgb(215, 219, 25) ;
+}
+/* .margin-edge{
+	border: 5px dotted rgb(19, 143, 42);
+} */

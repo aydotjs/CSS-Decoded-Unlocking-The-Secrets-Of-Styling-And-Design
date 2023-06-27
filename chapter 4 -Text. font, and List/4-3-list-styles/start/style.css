@@ -13,9 +13,15 @@ ul, ol {
 }
 
 ul {
-
+	list-style: lower-alpha outside url("./marker.png");
+ /* list-style-type: lower-roman;
+list-style-position: outside;
+list-style-image: url("./marker.png"); */
+}
+ul li{
+	border: 2px solid red;
 }
 
 ol {
-
+list-style-type: upper-alpha;
 }

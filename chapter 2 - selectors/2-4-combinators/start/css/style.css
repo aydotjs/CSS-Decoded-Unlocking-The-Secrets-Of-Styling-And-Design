@@ -10,4 +10,24 @@ body {
 }
 
 /* Using Combinators */
+/* Child combinator  ===== > */
+/* .main > a{
+	background-color: red;
+	color: white;
+} */
 
+/*  Descendant combinator  ===== space */
+/* .main a{
+	background-color: red;
+	color: white;
+} */
+/* Adjacent sibling combinator  ===== + */
+/* h2 + p{
+	background-color: red;
+	color: white
+} */
+/* General sibling combinator  ===== ~ */
+/* h2 ~ p{
+	background-color: red;
+	color: white
+} */
