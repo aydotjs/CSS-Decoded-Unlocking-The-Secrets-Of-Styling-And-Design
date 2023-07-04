@@ -1,6 +1,15 @@
 .nav {
-  display: -webkit-flex;
-  -webkit-flex-direction: row;
-  -webkit-justify-content: space-between;
-  -webkit-flex-wrap: wrap;
+  display: flex;
+}
+.main{
+  /* display: flex; */
+  /* gap: 40px; */
+  /* flex-flow:column nowrap; */
+}
+/* .col-a{
+  flex-basis: 200px;
+} */
+.col{
+  flex-basis: 200px;
+
 }
