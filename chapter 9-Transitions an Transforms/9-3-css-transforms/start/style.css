@@ -18,7 +18,9 @@ body {
 .mike {
   display: block;
   width: 100%;
+  transition: all 2s ease-in-out;
 }
 
 .wrap:hover .mike {
+  transform: rotate(5turn);
 }

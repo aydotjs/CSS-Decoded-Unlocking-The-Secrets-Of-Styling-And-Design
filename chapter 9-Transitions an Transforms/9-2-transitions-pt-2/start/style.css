@@ -20,11 +20,16 @@ body {
 	height: 200px;
 	border-radius: 8px;
 	background: #4682B4;
-
+	/* transition-property: all;
+	transition-duration: 5s;
+	transition-timing-function:ease-in-out;
+	transition-delay:3s ; */
+	transition:all 5s ease-in-out 3s;
  }
 
 .wrap:hover .box {
  	background: #F08080;
+	margin-left: 75%;
  }
 
 
